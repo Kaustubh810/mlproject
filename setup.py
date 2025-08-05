@@ -5,6 +5,7 @@ HYPEN_E_DOT='-e .'
 def get_requirements(file_path:str)->List[str]:
     '''
     this fuc return list of requ.
+    requierments
     '''
     requirements=[]
     with open(file_path) as file_obj:
